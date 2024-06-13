@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CurrencyConversionResponse } from '../../models/currency-conversion-response';
+import { CurrencyConversionResponse } from '../../interfaces/currency-conversion-response';
 import { CurrencyConverterService } from '../../services/CurrencyConvertService';
 
 
