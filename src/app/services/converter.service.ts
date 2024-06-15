@@ -7,12 +7,12 @@ import {environment} from "../../environments/environment";
 providedIn: 'root'
 })
 export class ConverterService {
-// Hier maken we connectie met onze environment om the gevoelige data op tehalen.
-// Een API key is altijd persoonlijk!
+// Here we connect to our environment to retrieve the sensitive data.
+// An API key is always personal
 private apiKey = environment.apiKey;
 constructor(private http: HttpClient) {}
 getCurrencyData(): Observable<CurrencyConversionResponse> {
-// Hie maken we connectie met de api. Hoe de endpoints werken kun je vinden inde documentatie van de api die je gebruikt.
+// How do we connect to the API. You can find how the endpoints work in the documentation of the API you use.
 const url: string = `https://openexchangerates.org/api/latest.json?
 app_id=${this.apiKey}`;
 return this.http.get<CurrencyConversionResponse>(url);
