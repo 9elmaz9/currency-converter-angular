@@ -1,5 +1,7 @@
 # CurrencyConverter
 
+![Project Screenshot](https://miro.com/blog/wp-content/uploads/2017/06/kanban-illustration-2048x1075.png)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.3.
 
 ## Overview
