@@ -1,6 +1,6 @@
 # CurrencyConverter
 
-![Project Screenshot](https://miro.com/blog/wp-content/uploads/2017/06/kanban-illustration-2048x1075.png)
+![Project Screenshot](https://cdn-kehhb.nitrocdn.com/iEJFLbwsQHQzpVjXnwXhzYxhRIedkADp/assets/images/optimized/rev-8a3063b/devtechnosys.com/insights/wp-content/uploads/2023/11/Develop-Currency-Converter-App-768x503.webp)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.3.
 
